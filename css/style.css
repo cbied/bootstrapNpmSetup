@@ -1,7 +1,7 @@
 .jumbotron {
     padding: 70px 30px;
     margin: 0;
-    background-color: #d1c4e9;
+    background-color: #9575cd;
     color: floralwhite
 }
 
@@ -27,4 +27,10 @@ address {
     font-size: 80%;
     margin: 0;
     color: #0f0f0f;
+}
+
+@media (max-width: 575px) {
+    .smallFormat {
+        margin-top: 20px;
+    }
 }
