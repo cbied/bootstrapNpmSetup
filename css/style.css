@@ -38,6 +38,10 @@ address {
     .smallFormat {
         margin-top: 20px;
     }
+
+    div.text-center {
+        margin-top: 20px;
+    }
 }
 
 .navbar-dark {
