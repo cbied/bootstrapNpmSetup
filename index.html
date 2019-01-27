@@ -122,8 +122,12 @@
                             <label for="section" class="col-form-label col-sm-3 mr-2">Section</label>
                             <div class="col-sm-4">
                                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <button class="btn btn-success active" type="button">Non-smoking</button>
-                                    <button class="btn btn-danger" type="button">Smoking</button>
+                                    <label class="btn btn-success">
+                                        <input type="radio" name="section" value="yes" id="NonSmoke" autocomplete="off" checked> Non-Smoking
+                                    </label>
+                                    <label class="btn btn-danger">
+                                        <input type="radio" name="section" value="no" id="Smoke" autocomplete="off"> Smoking
+                                    </label>
                                 </div>
                                 
                             </div>
